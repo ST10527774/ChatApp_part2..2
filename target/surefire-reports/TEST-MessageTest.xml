@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MessageTest" time="0.696" tests="14" errors="3" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\abong\OneDrive\Documents\NetBeansProjects\ChatApp_part2\target\test-classes;C:\Users\abong\OneDrive\Documents\NetBeansProjects\ChatApp_part2\target\classes;C:\Users\abong\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\abong\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\abong\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\abong\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\abong\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\abong\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\abong\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\abong\.m2\repository\com\ryansusana\asyncfx\asyncfx\0.0.4\asyncfx-0.0.4.jar;C:\Users\abong\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.3.21\kotlin-stdlib-jdk8-1.3.21.jar;C:\Users\abong\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.21\kotlin-stdlib-1.3.21.jar;C:\Users\abong\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.21\kotlin-stdlib-common-1.3.21.jar;C:\Users\abong\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\abong\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.3.21\kotlin-stdlib-jdk7-1.3.21.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="ZA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Users\abong\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\abong\AppData\Local\Temp\surefire12337600194514679161\surefirebooter-20260523112001109_3.jar C:\Users\abong\AppData\Local\Temp\surefire12337600194514679161 2026-05-23T11-20-00_381-jvmRun1 surefire-20260523112001109_1tmp surefire_0-20260523112001109_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="MessageTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\abong\OneDrive\Documents\NetBeansProjects\ChatApp_part2\target\test-classes;C:\Users\abong\OneDrive\Documents\NetBeansProjects\ChatApp_part2\target\classes;C:\Users\abong\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\abong\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\abong\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\abong\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\abong\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\abong\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\abong\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\abong\.m2\repository\com\ryansusana\asyncfx\asyncfx\0.0.4\asyncfx-0.0.4.jar;C:\Users\abong\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.3.21\kotlin-stdlib-jdk8-1.3.21.jar;C:\Users\abong\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.21\kotlin-stdlib-1.3.21.jar;C:\Users\abong\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.21\kotlin-stdlib-common-1.3.21.jar;C:\Users\abong\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\abong\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.3.21\kotlin-stdlib-jdk7-1.3.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\abong"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Users\abong\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.6.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\abong\OneDrive\Documents\NetBeansProjects\ChatApp_part2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\abong\AppData\Local\Temp\surefire12337600194514679161\surefirebooter-20260523112001109_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+7-LTS"/>
+    <property name="user.name" value="abong"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.6+7"/>
+    <property name="maven.ext.class.path" value="C:\Users\abong\Downloads\netbeans-29-bin\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\abong\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\abong\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\abong\OneDrive\Documents\NetBeansProjects\ChatApp_part2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\abong\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\abong\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Users\abong\AppData\Local\Microsoft\WindowsApps;C:\Users\abong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\abong\AppData\Local\Programs\Windsurf\bin;C:\Users\abong\.dotnet\tools;C:\Users\abong\Downloads\netbeans-29-bin\netbeans\bin\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.6+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testCheckMessageID_generatedID_isExactly10Chars" classname="MessageTest" time="0.172">
+    <error message="Not supported yet." type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not supported yet.
+	at MessageTest.assertTrue(MessageTest.java:160)
+	at MessageTest.testCheckMessageID_generatedID_isExactly10Chars(MessageTest.java:156)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testCheckRecipientCell_validNumber_returnsSuccess" classname="MessageTest" time="0.031"/>
+  <testcase name="testCreateMessageHash_multipleMessages_loopTest" classname="MessageTest" time="0.117">
+    <error message="Not supported yet." type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not supported yet.
+	at MessageTest.assertTrue(MessageTest.java:160)
+	at MessageTest.testCreateMessageHash_multipleMessages_loopTest(MessageTest.java:138)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testCheckMessageLength_over250chars_returnsFailureWithCount" classname="MessageTest" time="0.012"/>
+  <testcase name="testCheckMessageLength_validMessage_returnsSuccess" classname="MessageTest" time="0.009"/>
+  <testcase name="testCheckRecipientCell_invalidNumber_returnsFailure" classname="MessageTest" time="0.007"/>
+  <testcase name="testCreateMessageHash_isUppercase" classname="MessageTest" time="0.017">
+    <failure message="17:1:HITONIGHT ==&gt; expected: &lt;Hash must be entirely uppercase&gt; but was: &lt;17:1:HITONIGHT&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 17:1:HITONIGHT ==> expected: <Hash must be entirely uppercase> but was: <17:1:HITONIGHT>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at MessageTest.testCreateMessageHash_isUppercase(MessageTest.java:117)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></failure>
+  </testcase>
+  <testcase name="testSentMessage_userSelectsDisregard_returnsCorrectString" classname="MessageTest" time="0.003"/>
+  <testcase name="testCheckMessageID_generatedID_isNotNull" classname="MessageTest" time="0.005"/>
+  <testcase name="testCheckMessageLength_exactlyAtLimit_returnsSuccess" classname="MessageTest" time="0.008"/>
+  <testcase name="testSentMessage_userSelectsSend_returnsCorrectString" classname="MessageTest" time="0.007"/>
+  <testcase name="testCreateMessageHash_correctFormat_endsWithExpectedWords" classname="MessageTest" time="0.072">
+    <error message="Not supported yet." type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not supported yet.
+	at MessageTest.assertTrue(MessageTest.java:160)
+	at MessageTest.testCreateMessageHash_correctFormat_endsWithExpectedWords(MessageTest.java:109)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testSentMessage_userSelectsStore_returnsCorrectString" classname="MessageTest" time="0.006"/>
+  <testcase name="testCheckMessageLength_oneOver_returnsFailureWithCountOf1" classname="MessageTest" time="0.011"/>
+</testsuite>

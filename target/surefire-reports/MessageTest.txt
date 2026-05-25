@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: MessageTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 0.696 s <<< FAILURE! -- in MessageTest
+MessageTest.testCheckMessageID_generatedID_isExactly10Chars -- Time elapsed: 0.172 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at MessageTest.assertTrue(MessageTest.java:160)
+	at MessageTest.testCheckMessageID_generatedID_isExactly10Chars(MessageTest.java:156)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+MessageTest.testCreateMessageHash_multipleMessages_loopTest -- Time elapsed: 0.117 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at MessageTest.assertTrue(MessageTest.java:160)
+	at MessageTest.testCreateMessageHash_multipleMessages_loopTest(MessageTest.java:138)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+MessageTest.testCreateMessageHash_isUppercase -- Time elapsed: 0.017 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 17:1:HITONIGHT ==> expected: <Hash must be entirely uppercase> but was: <17:1:HITONIGHT>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at MessageTest.testCreateMessageHash_isUppercase(MessageTest.java:117)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+MessageTest.testCreateMessageHash_correctFormat_endsWithExpectedWords -- Time elapsed: 0.072 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at MessageTest.assertTrue(MessageTest.java:160)
+	at MessageTest.testCreateMessageHash_correctFormat_endsWithExpectedWords(MessageTest.java:109)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

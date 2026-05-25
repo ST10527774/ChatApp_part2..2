@@ -50,4 +50,5 @@
         <maven.compiler.release>21</maven.compiler.release>
         <exec.mainClass>com.mycompany.chatapp_part2.ChatApp_part2</exec.mainClass>
     </properties>
+    <name>ChatApp_Part2</name>
 </project>

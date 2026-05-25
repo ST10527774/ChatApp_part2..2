@@ -13,11 +13,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class MessageTest {
  
-    // ─── Declare objects available to every @Test ─────────────────────────────
+    // Declare objects available to every
     private Message message1;
     private Message message2;
  
-    // ─── @BeforeEach: fresh objects created before EVERY single test ─────────────
+    // @BeforeEach: fresh objects created before EVERY single test
     @BeforeEach
     public void setUp() {
         // Message 1 — POE test data (valid recipient)
